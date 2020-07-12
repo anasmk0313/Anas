@@ -335,6 +335,36 @@ figure.effect:hover p {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+@media (max-width: 1027px){
+    .menu-bar{
+        display: none;
+    }
+    .jumbotron .scroll-down{
+        height: 80px;
+        width: 110px;
+        border-radius: 0px;
+    }
+}
+@media (max-width: 576px){
+    .menu-bar{
+        display: none;
+    }
+    .jumbotron .scroll-down{
+        height: 80px;
+        width: 110px;
+        border-radius: 0px;
+    }
+}
+@media (max-width:360px){
+    .menu-bar{
+        display: none;
+    }
+    .jumbotron .scroll-down{
+        height: 80px;
+        width: 110px;
+        border-radius: 0px;
+    }
+}
 @media (max-width: 576px){
     .fixed{
         top: 150px;
