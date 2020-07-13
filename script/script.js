@@ -71,3 +71,12 @@ window.addEventListener("scroll",()=>{
     document.querySelector(".profile").setAttribute("id","active");
   }
 });
+
+window.addEventListener('load', age());
+
+function age(){
+  var date = new Date();
+  var year = date.getFullYear();
+  var age = year - 1996;
+  document.getElementById('age').innerHTML = age;
+}
