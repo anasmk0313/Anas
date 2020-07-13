@@ -1,8 +1,11 @@
 html{
     scroll-behavior: smooth;
 }
-span, i{
+span{
     color: rgb(96, 99, 97);
+}
+i{
+    color: rgb(172, 175, 173);
 }
 h1, h2, h3, h4, h5, h6{
     font-family: sans-serif, Helvetica, Arial;
@@ -25,7 +28,7 @@ hr{
     opacity: 0.2;
 }
 .jumbotron{
-    background-image: linear-gradient(red,black);
+    background-image: linear-gradient(rgb(122, 230, 127),black);
     color: white;
 }
 .jumbotron .container h1{
@@ -45,7 +48,7 @@ hr{
     text-align: center;
     bottom: 0px;
     right: 3.3%;
-    background-image: linear-gradient(red,rgb(73, 18, 18));
+    background-image: linear-gradient(rgb(122, 230, 127),black);
     color: white;
     border-radius: 50%;
     display: block;
@@ -102,7 +105,7 @@ hr{
     z-index: 999; 
 }
 .menu-bar .menu li{
-    background-image: linear-gradient(red,rgb(73, 18, 18));
+    background-image: linear-gradient(rgb(122, 230, 127),black);
     height: 90px;
     width: 110px;
     border-radius: 50%;
@@ -137,7 +140,7 @@ hr{
     list-style: none;
 }
 .background-white{
-    background: #FFFFFF;
+    background: rgb(240, 247, 241);
 }
 .container{
     padding: 40px;
@@ -171,6 +174,9 @@ hr{
 }
 .location, .location i{
     color: rgb(48, 155, 100);
+}
+.education h4 i{
+    color: #212529;
 }
 #ability div ul{
     list-style-type: none;
@@ -234,7 +240,7 @@ hr{
     overflow: hidden;
 }
 figure.effect {
-	background: #22A39F;
+	background: rgb(108, 187, 105);
 	color: #FFF;
 }
 
