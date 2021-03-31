@@ -321,6 +321,9 @@ figure.effect:hover p {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+#contact{
+    height: 100vh;
+}
 #contact ul{
     list-style-type: none;
     padding-top: 20px;
@@ -414,4 +417,12 @@ figure.effect:hover p {
 ::-webkit-scrollbar-thumb{
     background: linear-gradient( 45deg,green ,black);
     border-radius: 3px;
+}
+.cirtificate{
+    color: rgb(48, 155, 100);
+    font-style: italic;
+}
+.cirtificate:hover{
+    color: rgb(109, 197, 152);
+    text-decoration: none;
 }
