@@ -408,21 +408,21 @@ figure.effect:hover p {
     }
 }
 ::-webkit-scrollbar{
-    width: 25px;
+    width: 10px;
 }
 ::-webkit-scrollbar-track{
-    border: 7px solid red;
-    box-shadow: inset 0 0 2.5px rgb(73, 18, 18);
+    background-color: rgb(193, 227, 230);
+    box-shadow: inset 0 0 2.5px rgb(18, 73, 27);
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient( 45deg,green ,black);
+    background: linear-gradient( 45deg, black, green);
     border-radius: 3px;
 }
-.cirtificate{
+/* .cirtificate{
     color: rgb(48, 155, 100);
     font-style: italic;
 }
 .cirtificate:hover{
     color: rgb(109, 197, 152);
     text-decoration: none;
-}
+} */
