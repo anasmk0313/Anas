@@ -322,7 +322,8 @@ figure.effect:hover p {
     padding-top: 20px;
 }
 #contact{
-    height: 100vh;
+    min-height: 100vh;
+
 }
 #contact ul{
     list-style-type: none;

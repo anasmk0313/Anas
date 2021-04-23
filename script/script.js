@@ -16,8 +16,8 @@ var listContainer = document.getElementById('menuBar');
 var lists = listContainer.getElementsByClassName('menu-item');
 for(i = 0; i < lists.length; i++){
   lists[i].addEventListener("click", function(){
-  var current = document.getElementsByid("active");
-  current[0].id = current[0].id.replace("active", "");
+  // var current = document.getElementsByid("active");
+  // current[0].id = current[0].id.replace("active", "");
   this.id += " active";
   });
 }
